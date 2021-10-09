@@ -1,7 +1,7 @@
 experimental:
   confetti-creepers: false
   elevators: false
-  xp-management: false
+  xp-management: true
 hermitcraft:
   tag: false
   thunder-shrine: false
@@ -22,7 +22,7 @@ other:
   persistent-heads: false
 survival:
   afk-display: true
-  cauldron-concrete: false
+  cauldron-concrete: true
   coordinates-hud: false
   custom-nether-portals: false
   durability-ping: false
