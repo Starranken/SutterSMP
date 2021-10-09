@@ -1,0 +1,10 @@
+# Worlds to count player's from
+included-worlds:
+  - "world"
+defaults:
+  # Default display for new players
+  display: "CHAT"
+# Color of the boss bar for players who have that as their display style. Can be one of: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+boss-bar-color: "WHITE"
+# When the night is skipped, always reset the weather cycle even if there is not storm presently
+always-reset-weather-cycle: false

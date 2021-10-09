@@ -1,0 +1,16 @@
+# Value between 0 (inclusive) and 1 (exclusive) for the percentage at which to start notifying the player. THIS IS UNUSED, look for `uses-left`
+notification-threshold-percent: 0.02
+# How many uses left a tool should have to start notifying the player. Replaces `notification-threshold-percent`
+uses-left: 10
+# Cooldown in seconds between notifications to limit spam
+notification-cooldown-seconds: 10
+defaults:
+  # Default setting for notifying players when their main/off hand tools get low
+  hand-ping: true
+  # Default setting for notifying players when their equipped armor gets low
+  armor-ping: true
+  # Default setting for playing a sound upon a notification
+  play-sound: true
+  # Default setting for displaying the notification to the player. Can be one of: TITLE, SUBTITLE, CHAT, ACTION_BAR, HIDDEN
+  display: "SUBTITLE"
+enabled-by-default: true

@@ -1,0 +1,5 @@
+enable-bstats: true
+# Settings related to the embedded database
+database:
+  user: "user"
+  password: "password"
